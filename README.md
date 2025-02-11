@@ -109,7 +109,15 @@ To view the output of your MapReduce job, use:
 hadoop fs -cat /output/*
 ```
 
-### 10. **Copy Output from HDFS to Local OS**
+### 10. **Output**
+
+To view the output of your MapReduce job, use:
+
+```bash
+hadoop fs -cat /output/<taskno.>/*
+```
+
+### 11. **Copy Output from HDFS to Local OS**
 
 To copy the output from HDFS to your local machine:
 
